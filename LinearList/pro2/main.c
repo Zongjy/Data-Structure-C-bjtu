@@ -1,3 +1,4 @@
+#include<time.h>
 #include"linklist.h"
 
 int main()
@@ -5,6 +6,7 @@ int main()
     int n,err;
     printf("请输入参与游戏的人数:\n");
     scanf("%d", &n);
+    srand((unsigned)time(NULL));
     linklist *head = linklist_init(n);
     if(head == NULL)
         exit(1);
