@@ -1,7 +1,7 @@
 CFLAGS		+=-Wall -g -D_FILE_OFFSET_BITS=64
 CC			=gcc
-TARGET		=park
-SRC	 		=park.c
+TARGET		=fibonacci
+SRC	 		=fibonacci.c
 
 $(TARGET):$(SRC)
 	$(CC) $(SRC) main.c $(CFLAGS) -o $@

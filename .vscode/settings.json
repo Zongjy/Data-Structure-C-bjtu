@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "linklist.h": "c"
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "mystring.h": "c"
     }
 }
